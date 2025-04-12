@@ -23,7 +23,7 @@ LLMs have context window limitations (even 200K or 1M tokens aren't always enoug
 ## Installation
 
 ```bash
-npm install -g rpmix
+npm install -g .
 ```
 
 Or use directly with npx:
