@@ -1,0 +1,28 @@
+{
+  "name": "rpmix",
+  "version": "1.0.0",
+  "description": "Bundle relevant parts of a codebase based on imports for sending to LLMs",
+  "main": "index.js",
+  "bin": {
+    "rpmix": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "code",
+    "bundle",
+    "llm",
+    "ai",
+    "dependency",
+    "analysis"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/parser": "^7.23.0",
+    "@babel/traverse": "^7.23.0",
+    "commander": "^11.0.0",
+    "glob": "^10.3.10"
+  }
+}
